@@ -1,0 +1,68 @@
+/* Default font */
+body {
+
+    font-family: sans-serif;
+    padding-left: 30px;
+    width: 50%;
+}
+
+/* Header formatting */
+header {
+    padding: auto;
+}
+
+header h2{
+    margin-left: 4.5em;
+    margin-top: -20px;
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+}
+
+header h1 {
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    font-size: 3em;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+/* Main content formatting */
+main h1{
+    font-size: 30px;
+}
+
+main h1::first-letter {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link formatting */
+a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: green;
+}
+
+/* Footer formatting */
+footer {
+    text-align: center;
+    font-size: 1em;
+}
