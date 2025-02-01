@@ -43,6 +43,7 @@ main h1::first-letter {
 
 ul {
     list-style-type: none;
+    margin-left: 10px;
     padding: 0;
 }
 
@@ -54,7 +55,7 @@ ul li {
 a {
     color: orange;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline orange;    
 }
 
 a:hover, a:focus {
